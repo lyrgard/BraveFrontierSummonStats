@@ -1,0 +1,14 @@
+<!-- partials/user.html -->
+<section class="contacts" ng-controller="bfSSListRuController" >
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title">RU list</h3>
+		</div>
+		<div class="panel-body">
+			<ul>
+                <li ng-repeat="ru in list"><a ng-click="goToResult(ru.id)" ng-bind="ru.name"></a></li>
+            </ul>
+		</div>
+	</div>
+    
+</section>

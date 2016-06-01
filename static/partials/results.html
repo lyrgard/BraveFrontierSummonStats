@@ -1,0 +1,15 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title" ng-bind="results.name"></h3>
+    </div>
+    <div class="panel-body">
+        <h4>Results :</h4>
+        <canvas id="pie" class="chart chart-pie" chart-data="results.data" chart-labels="results.labels" chart-options="options"></canvas>
+        <hr/>
+        <div ng-repeat="subResults in results.subResults track by $index" ng-if="subResults">
+            <h4 class="panel-title" ng-bind="results.labels[$index] + ' :'"></h4>
+            <canvas id="pie" class="chart chart-pie" chart-data="subResults.data" chart-labels="subResults.labels" chart-options="options"></canvas>
+            <hr/>
+        </div>
+    </div>
+</div>

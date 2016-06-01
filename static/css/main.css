@@ -1,0 +1,35 @@
+body {
+    color: #000000;
+    margin: 0;
+    font-family: Trebuchet MS;
+}
+
+
+
+.page {
+	background-image: url("../images/main/transparent.png");
+	padding-top: 15px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.btn > img {
+	margin-right: 5px;
+}
+
+.panel-heading .btn {
+    margin-top: 5px;
+}
+
+#aboutContent a {
+	display:block;
+	margin-bottom:10px;
+}
+
+#aboutContent .hostInfo span {
+	display:block;
+	font-size: 0.7em;
+    color: #777777;
+}

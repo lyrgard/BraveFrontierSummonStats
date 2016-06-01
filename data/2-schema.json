@@ -1,0 +1,13 @@
+{
+    "id": 2,
+    "name": "Zodiac 2 : RU Scorpio, Libra and Sagitarius",
+    "groupLabels": ["RU units", "Older Zodiacs", "Others EU units", "Native 7*", "Legacy 7*", "Others"],
+    "groups": [
+        {"labels": ["Scorpio", "Libra", "Sagitarius"]},
+        null,
+        null,
+        null,
+        null,
+        null
+    ]   
+}

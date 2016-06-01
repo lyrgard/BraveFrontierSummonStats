@@ -1,0 +1,9 @@
+{
+    "id": 1,
+    "name": "Zodiac 1 : RU Aquarius, Capricorne and Aries",
+    "groupLabels": ["RU units", "Others"],
+    "groups": [
+        {"labels": ["Aquarius", "Capricorne", "Aries"]},
+        null
+    ]   
+}

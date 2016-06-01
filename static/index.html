@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="bfSS">
+<head>
+    <meta charset="utf-8">
+    <title>Brave Frontier Summon Stats</title>
+
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.1/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular-resource.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.14.2/ui-bootstrap.js"></script>
+    <script src="lib/angular-chart.js/Chart.js"></script>
+    <script src="lib/angular-chart.js/allTooltips.js"></script>
+    <script src="lib/angular-chart.js/angular-chart.min.js"></script>
+    
+	<script src="bfSummonStats.md.js"></script>
+	<script src="controllers/resultsController.js"></script>
+    <script src="controllers/addDataController.js"></script>
+    <script src="controllers/listRuController.js"></script>
+    <script src="directives/listRuDirective.js"></script>
+	
+    <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
+	<!-- <link rel="stylesheet" href="lib/css/bootstrap.min.css"> -->
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/angular-chart.js/angular-chart.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container BFSummonStats">
+		<div class="row page">
+			<div class="col-xs-3">
+				<div bf-s-s-list-ru>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">About</h3>
+					</div>
+					<div class="panel-body" id="aboutContent">
+						<a href="mailto:lyrgard@gmail.com">Contact administrator</a>
+						<div class="hostInfo">
+							<span>bfSummonStats.lyrgard.fr is hosted by :</span>
+							<span>GANDI SAS</span>
+							<span>63-65 boulevard Massena Paris (75013) FRANCE</span>
+							<span>Registred under number 423 093 459 RCS PARIS</span>
+							<span>VAT no FR81423093459</span>
+							<span>Tel: +33 (0) 1 70.37.76.61</span>
+							<span>Fax: +33 (0) 1 43 73 18 51</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-9">
+				<div ng-view>
+	    		</div>
+			</div>
+		</div>
+    </div>
+</body>
+</html>
