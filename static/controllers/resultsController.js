@@ -33,7 +33,10 @@ angular.module('bfSS').controller('bfSSResultsController', [
                     }
                 },*/
                 series: [
-                    {data: []}
+                    {
+                        data: [],
+                        name:"Summoned"
+                    }
                 ],
                 title: {text:label},
                 loading: false
