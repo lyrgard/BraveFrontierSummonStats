@@ -1,9 +1,9 @@
 {
     "id": 1,
     "name": "Zodiac 1 : RU Aquarius, Capricorne and Aries",
-    "groupLabels": ["RU units", "Others"],
+    "groupLabels": ["RU units <img src=\"http://static.bravefrontier.gumi-europe.net/content/unit/img/unit_ills_thum_740176.png\"></img><img src=\"http://static.bravefrontier.gumi-europe.net/content/unit/img/unit_ills_thum_730176.png\"></img><img src=\"http://static.bravefrontier.gumi-europe.net/content/unit/img/unit_ills_thum_760176.png\"></img>", "Others"],
     "groups": [
-        {"labels": ["Aquarius", "Capricorne", "Aries"]},
+        {"labels": ["Aquarius <img src=\"http://static.bravefrontier.gumi-europe.net/content/unit/img/unit_ills_thum_740176.png\"></img>", "Capricorne <img src=\"http://static.bravefrontier.gumi-europe.net/content/unit/img/unit_ills_thum_730176.png\"></img>", "Aries <img src=\"http://static.bravefrontier.gumi-europe.net/content/unit/img/unit_ills_thum_760176.png\"></img>"]},
         null
     ]   
 }
