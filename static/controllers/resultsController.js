@@ -6,7 +6,7 @@ angular.module('bfSS').controller('bfSSResultsController', [
         var getFullLabel = function(label, value, total) {
             var percentage = Math.floor(((value/total) * 100)+0.5);
             var interval = Math.floor(1960*Math.sqrt((value/total*(1-value/total))/total))/10;
-            return label + " : " + percentage + "% (+/- " + interval + '%)';
+            return '<span class="unit-label">' + label + " : " + percentage + "% (+/- " + interval + '%)</span>';
         };
         
         var getNewChartConfig = function(label) {
@@ -17,21 +17,12 @@ angular.module('bfSS').controller('bfSSResultsController', [
                         pie: {
                             dataLabels: {
                                 useHTML: true,
-                                distance: 40,
+                                distance: 15,
                                 y: -10
                             }
                         }
                     }
                 },
-                /*plotOptions: {
-                    series : {
-                        dataLabels: {
-                            enabled: true,
-                            format: 'to {y} <img src="http://vignette3.wikia.nocookie.net/bravefrontierrpg/images/6/65/Unit_ills_thum_50166.png/revision/latest/scale-to-width-down/42?cb=20160106141141&path-prefix=fr"></img>',
-                            useHTML: true
-                        }
-                    }
-                },*/
                 series: [
                     {
                         data: [],

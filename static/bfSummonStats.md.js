@@ -1,6 +1,7 @@
 angular.module('bfSS', [
 	'ngRoute', 
 	'ngResource', 
+    'ngSanitize',
 	'ui.bootstrap',
     'highcharts-ng'
 ])

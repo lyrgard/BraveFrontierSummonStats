@@ -33,3 +33,7 @@ a {
 	font-size: 0.7em;
     color: #777777;
 }
+
+.unit-label img {
+    width: 30px;
+}

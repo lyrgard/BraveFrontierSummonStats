@@ -1,9 +1,9 @@
 {
     "id": 2,
     "name": "Zodiac 2 : RU Scorpio, Libra and Sagitarius",
-    "groupLabels": ["RU units <img style=\"width:30px\" src=\"http://cdn.ios.brave.a-lim.jp/unit/img/unit_ills_thum_10011.png\"></img><img style=\"width:30px\" src=\"http://cdn.ios.brave.a-lim.jp/unit/img/unit_ills_thum_20011.png\"></img><img style=\"width:30px\" src=\"http://cdn.ios.brave.a-lim.jp/unit/img/unit_ills_thum_30011.png\"></img>", "Older Zodiacs", "Others EU units", "Native 7*", "Legacy 7*", "Others"],
+    "groupLabels": ["RU units <img src=\"http://static.bravefrontier.gumi-europe.net/content/unit/img/unit_ills_thum_760186.png\"></img><img src=\"http://static.bravefrontier.gumi-europe.net/content/unit/img/unit_ills_thum_740186.png\"></img><img src=\"http://static.bravefrontier.gumi-europe.net/content/unit/img/unit_ills_thum_710176.png\"></img>", "Older Zodiacs", "Others EU units", "Native 7*", "Legacy 7*", "Others"],
     "groups": [
-        {"labels": ["Scorpio <img style=\"width:30px\" src=\"http://cdn.ios.brave.a-lim.jp/unit/img/unit_ills_thum_10011.png\"></img>", "Libra <img style=\"width:30px\" src=\"http://cdn.ios.brave.a-lim.jp/unit/img/unit_ills_thum_20011.png\"></img>", "Sagitarius <img style=\"width:30px\" src=\"http://cdn.ios.brave.a-lim.jp/unit/img/unit_ills_thum_30011.png\"></img>"]},
+        {"labels": ["Scorpio <img src=\"http://static.bravefrontier.gumi-europe.net/content/unit/img/unit_ills_thum_760186.png\"></img>", "Libra <img src=\"http://static.bravefrontier.gumi-europe.net/content/unit/img/unit_ills_thum_740186.png\"></img>", "Sagitarius <img src=\"http://static.bravefrontier.gumi-europe.net/content/unit/img/unit_ills_thum_710176.png\"></img>"]},
         null,
         null,
         null,
