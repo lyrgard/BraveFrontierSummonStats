@@ -2,7 +2,7 @@ angular.module('bfSS', [
 	'ngRoute', 
 	'ngResource', 
 	'ui.bootstrap',
-    'chart.js'
+    'highcharts-ng'
 ])
 
 .config(['$routeProvider',
