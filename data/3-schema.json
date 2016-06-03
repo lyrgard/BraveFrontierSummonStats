@@ -1,0 +1,13 @@
+{
+    "id": 3,
+    "name": "Zodiac 3 : RU Leo, Gemini and Pisces",
+    "groupLabels": ["RU units <img src=\"http://vignette1.wikia.nocookie.net/bravefrontierrpg/images/0/01/Unit_ills_thum_710186.png/revision/latest?cb=20160602160010&path-prefix=fr\"></img><img src=\"http://vignette4.wikia.nocookie.net/bravefrontierrpg/images/3/3a/Unit_ills_thum_750176.png/revision/latest?cb=20160602160012&path-prefix=fr\"></img><img src=\"http://vignette4.wikia.nocookie.net/bravefrontierrpg/images/e/eb/Unit_ills_thum_720176.png/revision/latest?cb=20160602160011&path-prefix=fr\"></img>", "Older Zodiacs", "Other EU units", "Native 7*", "Legacy 7*", "Other units"],
+    "groups": [
+        {"labels": ["Leo <img src=\"http://vignette1.wikia.nocookie.net/bravefrontierrpg/images/0/01/Unit_ills_thum_710186.png/revision/latest?cb=20160602160010&path-prefix=fr\"></img>", "Gemini <img src=\"http://vignette4.wikia.nocookie.net/bravefrontierrpg/images/3/3a/Unit_ills_thum_750176.png/revision/latest?cb=20160602160012&path-prefix=fr\"></img>", "Pisces <img src=\"http://vignette4.wikia.nocookie.net/bravefrontierrpg/images/e/eb/Unit_ills_thum_720176.png/revision/latest?cb=20160602160011&path-prefix=fr\"></img>"]},
+        null,
+        null,
+        null,
+        null,
+        null
+    ]   
+}

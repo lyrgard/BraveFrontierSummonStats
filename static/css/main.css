@@ -34,6 +34,10 @@ a {
     color: #777777;
 }
 
+.unit-label {
+    line-height: 34px;
+}
+
 .unit-label img {
-    width: 30px;
+    height: 34px;
 }
